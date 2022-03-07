@@ -1,0 +1,45 @@
+.cursos {
+    background-color: white;  
+}
+
+.cursos__titulo {
+    font-size: 2rem;
+    font-family: 'roboto';
+    color: darkblue;
+}
+
+.cursos__lista {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.cursos__logo {
+    width: 20%;
+    align-items: center;
+}
+
+.cursos__nome {
+    font-size: 1rem;
+    font-family: 'roboto';
+    color: darkblue;
+    text-align: center;
+}
+
+.cursos__disponiveis {
+    width: 25%;
+    margin-bottom: 2%;
+    border: 1px solid navy;
+    box-shadow: gray;
+    padding: 1%;
+    flex-grow: 1;
+    text-align: center;
+}
+
+/*.cursos__disponiveis:nth-child(4n) {
+    margin-right: 0;
+}
+
+.cursos__disponiveis:nth-child(4n+1) {
+    margin-left: 0;
+}

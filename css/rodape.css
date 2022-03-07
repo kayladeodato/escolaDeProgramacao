@@ -1,0 +1,45 @@
+.rodape {
+    align-items: center;
+    background: #F2F5F7;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 20px 0;
+    width: 25%;
+}
+
+.rodape__legend {
+    color: blue;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.rodape__input{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px;
+}
+
+.rodape__enviar {
+    background: #4DBA7A;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    color: azure;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.rodape__contato:hover {
+    background: aquamarine;
+    color: darkgreen;
+}
+
+.rodape__input .rodape__contato {
+    border: 1px solid #4DBA7A;
+    box-sizing: border-box;
+    font-size: 16px;
+    outline: 0;
+}

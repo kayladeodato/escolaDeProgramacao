@@ -1,0 +1,44 @@
+.resumo {
+    font-family: 'roboto';
+    background: rgb(82, 82, 112);
+}
+
+.resumo__titulo {
+    color: white;
+    font-weight: bold;
+}
+
+.resumo__area {
+    height: 150px;
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 5px;  
+    
+}
+
+.resumo__area-back {
+    color: orange;
+    font-weight: bold;
+}
+
+.resumo__area-front {
+    color: darkorchid;
+    font-weight: bold;
+}
+
+.resumo__area-frame {
+    color: rgb(101, 189, 160);
+    font-weight: bold;
+}
+
+.resumo__area-BD {
+    color: rgb(130, 193, 235);
+    font-weight: bold;
+}
+
+.lista__linguagem {
+    color: white;
+    text-decoration: none;
+}
+
+
