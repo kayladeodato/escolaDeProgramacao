@@ -1,42 +1,43 @@
 .cursos {
     background-color: white;  
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .cursos__titulo {
-    font-size: 2rem;
-    font-family: 'roboto';
+    font-size: 32px;
     color: darkblue;
+    font-weight: bold;
+    padding: 10px 0 10px 0;
+    text-align: center;
 }
 
 .cursos__lista {
     flex-wrap: wrap;
     display: flex;
-    justify-content: center;
 }
 
 .cursos__logo {
     width: 20%;
-    align-items: center;
 }
 
 .cursos__nome {
     font-size: 1rem;
-    font-family: 'roboto';
     color: darkblue;
     text-align: center;
 }
 
 .cursos__disponiveis {
-    width: 25%;
-    margin-bottom: 2%;
-    border: 1px solid navy;
     box-shadow: gray;
-    padding: 1%;
-    flex-grow: 1;
     text-align: center;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 2px #CCC;
+    margin: 1%;
+    width: 20%;
+
 }
 
-/*.cursos__disponiveis:nth-child(4n) {
+.cursos__disponiveis:nth-child(4n) {
     margin-right: 0;
 }
 

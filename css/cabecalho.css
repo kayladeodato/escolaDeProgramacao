@@ -9,7 +9,7 @@ body {
 }
 
 .cabecalho {
-    background: #fff;
+    background: rgb(233, 240, 253);
     padding: 20px 0;
 }
 
@@ -21,7 +21,6 @@ body {
 .logo__site {
     height: 55px;
     margin:0 0 0 10px
-    weight: 55px;
 }
 
 .titulo__site {
